@@ -1,0 +1,5 @@
+onlinefraud.csv
+nyc_housing_base.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints
