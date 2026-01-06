@@ -1,49 +1,44 @@
-# 🩺 Breast Cancer Survival Prediction (Decision Tree)
+# 🩺 Breast Cancer Survival Predictor (Decision Tree)
 
-This project implements a **Decision Tree Classifier** to predict the survival status of breast cancer patients based on medical attributes.
+A Streamlit application that predicts the survival status of breast cancer patients using a Decision Tree model. This tool allows medical professionals to analyze patient data and estimate survival outcomes.
 
-## 🚀 Features
+## 📊 Features
 
-- **Survival Prediction**: Classifies patients as 'Alive' or 'Dead' based on tumour size, stage, and other factors.
-- **Interactive Dashboard**:
-    - **Data Explorer**: View dataset statistics and raw values.
-    - **Model Training**: Train the model in real-time.
-    - **Visualizations**: Confusion Matrix, Feature Importance, and Decision Tree diagram.
+- **Survival Prediction**: Classification of patients into "Alive" or "Dead" categories.
+- **Interactive Dashboard**: Real-time model training and prediction based on inputs like Tumor Size, Stage, and Grade.
+- **Visualizations**: Confusion Matrix, Feature Importance charts, and Decision Tree structure.
+- **User-Friendly Interface**: Clean and intuitive UI built with Streamlit.
 
-## 🛠️ Usage
+## 🛠️ Installation
 
-1. **Install dependencies**:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Vibin-007/decision_tree.git
+   cd decision_tree
+   ```
+
+2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-<<<<<<< HEAD
-2. **Run the App**:
+3. Run the application:
    ```bash
-   python -m streamlit run app.py
+   streamlit run app.py
    ```
 
 ## 📁 Project Structure
 
-- `app.py`: Streamlit application file.
-- `decision_tree_analysis.ipynb`: Jupyter notebook for in-depth analysis.
-- `Breast_Cancer.csv`: Dataset used for training.
-- `requirements.txt`: Python package dependencies.
-=======
-### **Breast Cancer Survival Prediction**
-```bash
-python -m streamlit run breast_cancer_app.py
-```
->>>>>>> b3e36d40947da6fc56d6694433f473f3a7b8a3e3
+- `app.py`: Main application file containing the Streamlit interface and logic.
+- `Breast_Cancer.csv`: Dataset containing patient attributes like Age, Race, Marital Status, and Tumor Stage.
+- `decision_tree_analysis.ipynb`: Jupyter notebook for exploratory data analysis and model experimentation.
+- `requirements.txt`: List of Python dependencies.
 
-## 📂 Dataset
+## 📈 Model Information
 
-The project uses `Breast_Cancer.csv`. It contains patient details like Age, Race, Marital Status, T Stage, N Stage, etc.
-
-## 📦 Requirements
-
-- streamlit
-- pandas
-- scikit-learn
-- matplotlib
-- seaborn
+The model uses **Decision Tree Classification** to predict survival based on:
+- **T Stage, N Stage, 6th Stage**
+- **Tumor Size**
+- **Grade & Differentiation**
+- **Age, Race, Marital Status**
+- **Estrogen & Progesterone Status**
