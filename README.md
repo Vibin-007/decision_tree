@@ -15,11 +15,6 @@ This project implements **Decision Tree** algorithms for fraud analysis using th
 python -m streamlit run app.py
 ```
 
-### **NYC Housing Price Prediction**
-```bash
-python -m streamlit run nyc_app.py
-```
-
 ### **Breast Cancer Survival Prediction**
 ```bash
 python -m streamlit run breast_cancer_app.py
