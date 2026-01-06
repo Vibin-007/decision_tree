@@ -17,6 +17,7 @@ This project implements a **Decision Tree Classifier** to predict the survival s
    pip install -r requirements.txt
    ```
 
+<<<<<<< HEAD
 2. **Run the App**:
    ```bash
    python -m streamlit run app.py
@@ -28,6 +29,12 @@ This project implements a **Decision Tree Classifier** to predict the survival s
 - `decision_tree_analysis.ipynb`: Jupyter notebook for in-depth analysis.
 - `Breast_Cancer.csv`: Dataset used for training.
 - `requirements.txt`: Python package dependencies.
+=======
+### **Breast Cancer Survival Prediction**
+```bash
+python -m streamlit run breast_cancer_app.py
+```
+>>>>>>> b3e36d40947da6fc56d6694433f473f3a7b8a3e3
 
 ## 📂 Dataset
 
