@@ -1,34 +1,37 @@
-# 🛡️ Online Fraud Detection (Decision Tree)
+# 🩺 Breast Cancer Survival Prediction (Decision Tree)
 
-This project implements **Decision Tree** algorithms for fraud analysis using the [Online Fraud Dataset](https://www.kaggle.com/datasets).
+This project implements a **Decision Tree Classifier** to predict the survival status of breast cancer patients based on medical attributes.
 
 ## 🚀 Features
 
-- **Classification**: Predicts whether a transaction is fraudulent (`isFraud`) based on transaction details.
-- **Regression**: Predicts the transaction `amount`.
-- **Interactive UI**: Built with Streamlit for easy data exploration and model testing.
+- **Survival Prediction**: Classifies patients as 'Alive' or 'Dead' based on tumour size, stage, and other factors.
+- **Interactive Dashboard**:
+    - **Data Explorer**: View dataset statistics and raw values.
+    - **Model Training**: Train the model in real-time.
+    - **Visualizations**: Confusion Matrix, Feature Importance, and Decision Tree diagram.
 
 ## 🛠️ Usage
 
-### **Legacy/Original App**
-```bash
-python -m streamlit run app.py
-```
+1. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### **NYC Housing Price Prediction**
-```bash
-python -m streamlit run nyc_app.py
-```
+2. **Run the App**:
+   ```bash
+   python -m streamlit run app.py
+   ```
 
-### **Breast Cancer Survival Prediction**
-```bash
-python -m streamlit run breast_cancer_app.py
-```
+## 📁 Project Structure
+
+- `app.py`: Streamlit application file.
+- `decision_tree_analysis.ipynb`: Jupyter notebook for in-depth analysis.
+- `Breast_Cancer.csv`: Dataset used for training.
+- `requirements.txt`: Python package dependencies.
 
 ## 📂 Dataset
 
-The dataset `onlinefraud.csv` is required to run this app. Place it in the root directory.
-**Note**: The dataset is excluded from this repository due to its size (>500MB).
+The project uses `Breast_Cancer.csv`. It contains patient details like Age, Race, Marital Status, T Stage, N Stage, etc.
 
 ## 📦 Requirements
 
